@@ -1,4 +1,13 @@
+/* import the fonts from goggle fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 /* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 
 .attribution {
   font-size: 11px;
@@ -7,4 +16,41 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.container {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contanerQrcode {
+  background-color: white;
+  width: 300px;
+  height: 480px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 15px 20px hsl(211, 33%, 88%);
+  font-family: "outfit", sans-serif;
+}
+
+.contanerQrcode img {
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  margin: 15px 0px;
+}
+
+.contanerQrcode p {
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
+  margin: 15px 25px;
+}
+
+.contanerQrcode h2 {
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+  margin: 15px 25px;
 }
