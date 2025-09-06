@@ -12,6 +12,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 10px;
 }
 
 .attribution a {
@@ -20,8 +21,10 @@
 
 .container {
   background-color: hsl(212, 45%, 89%);
+  width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
